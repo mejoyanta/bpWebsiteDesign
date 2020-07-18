@@ -1,0 +1,239 @@
+/**
+ * Title: Bangladesh Police Web Site
+ * Designer Name: Joyanta Kumar Sarkar
+ * Email: joyanta319@gmail.com
+ * Version: 0.0.0
+ */
+/**
+ * Import Font
+ */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/**
+ * Table of Content
+ * 0. Common Design
+ * 1. Header Section
+ * 2. Slider Section
+ * 3. About Section
+ * 4. Member Section
+ * 5. Footer Section
+ * 6. Responsive Design Section
+ */
+
+/**
+ * Theme Default Options
+ * font-family: 'Roboto', sans-serif;
+ * color: #29337a;
+ * background-color: #29337a;
+ */
+
+/**
+ * 0. Common Design
+ */
+body {
+  margin: 0;
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  color: #fff;
+}
+p {
+  font-size: 14px;
+}
+hr {
+  /* border-top-color: 1px solid rgba(104, 104, 104, 0.1); */
+  border-top-color: 1px solid #323c81;
+}
+.theme-default-color {
+  color: #fff;
+  background-color: #27347a;
+  border-color: #323c81;
+}
+
+.theme-default-color:hover {
+  background-color: #17235f;
+  color: #fff;
+}
+
+.theme-default-color:focus,
+.theme-default-color.focus {
+  color: #fff;
+  background-color: #27347a;
+  border-color: #323c81;
+  /* box-shadow: 0 0 0 0.2rem rgba(250, 251, 252, 0.966); */
+}
+
+.theme-default-color.disabled,
+.theme-default-color:disabled {
+  color: #fff;
+  background-color: #27347a;
+  border-color: #323c81;
+}
+
+.theme-default-color:not(:disabled):not(.disabled):active,
+.theme-default-color:not(:disabled):not(.disabled).active,
+.show > .theme-default-color.dropdown-toggle {
+  color: #fff;
+  background-color: #27347a;
+  border-color: #323c81;
+}
+.section-title {
+  margin-bottom: 4rem;
+  font-size: 38px;
+  font-weight: 700;
+}
+.section-sub-title {
+  margin-bottom: 1.5rem;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/**
+ * 1. Header Section
+ */
+.header-section {
+  background-color: #29337a;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header-section .navbar .navbar-nav li {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.header-section .navbar .navbar-nav li .nav-link:hover {
+  text-decoration: underline;
+}
+
+/**
+ * 3. About Section
+ */
+.about-section {
+  margin-top: 6rem;
+  margin-bottom: 7rem;
+}
+.about-image-section img {
+  width: 100% !important;
+}
+.about-section form a {
+  color: #27347a;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+/**
+ * 4. Member Section
+ */
+.member-section {
+  margin-bottom: 7.5rem;
+}
+.single-member {
+  padding: 0.5rem;
+  border-radius: 3px;
+  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.2);
+}
+.single-member img {
+  width: 100%;
+  border-radius: 6px;
+}
+.single-member .member-details .member-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #222;
+  margin-top: 0.75rem;
+  margin-bottom: 5px;
+}
+.single-member .member-details .member-designation {
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+  font-size: 15px;
+  color: #666;
+}
+/**
+ * 5. Footer Section
+ */
+.footer-section {
+  background-color: #29337a;
+  color: #fff;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+.footer-section p,
+.footer-section a {
+  margin: 0;
+  padding: 0;
+}
+.footer-section-img {
+  margin-bottom: 1rem;
+}
+.footer-section-img img {
+  margin-right: 1rem;
+}
+.footer-sub-title {
+  font-size: 20px;
+  margin-bottom: 1.2rem;
+}
+.footer-intro-section p {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 1rem;
+}
+.footer-social-link {
+  display: flex;
+}
+.footer-social-link a {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  color: #999;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-social-link a:hover {
+  color: #29337a;
+  text-decoration: none;
+}
+.footer-link-section ul li,
+.footer-link-section ul li a {
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+/**
+ * Owl theme
+ * 
+ */
+
+.owl-carousel .owl-stage-outer {
+  position: relative;
+}
+
+.owl-carousel .owl-dots {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -25px);
+}
+.owl-carousel .owl-dots .owl-dot {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: #27347a;
+  margin: 5px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+}
+.owl-carousel .owl-dots .owl-dot .active {
+  background: #050e38 !important;
+  border: 1px solid #050e38;
+}
