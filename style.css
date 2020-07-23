@@ -113,6 +113,12 @@ hr {
 .header-section .navbar .navbar-nav li .nav-link:hover {
   text-decoration: underline;
 }
+/**
+ * 2. Banner section
+ */
+.banner-section img {
+  max-height: 540px;
+}
 
 /**
  * 3. About Section
@@ -145,14 +151,14 @@ hr {
   width: 100%;
   border-radius: 6px;
 }
-.single-member .member-details .member-name {
+.member-name {
   font-size: 16px;
   font-weight: 700;
   color: #222;
   margin-top: 0.75rem;
   margin-bottom: 5px;
 }
-.single-member .member-details .member-designation {
+.member-designation {
   margin-bottom: 0.5rem;
   font-weight: 400;
   font-size: 15px;
@@ -236,4 +242,57 @@ hr {
 .owl-carousel .owl-dots .owl-dot .active {
   background: #050e38 !important;
   border: 1px solid #050e38;
+}
+
+/**
+ * Member page design
+ */
+.contact-info p {
+  font-size: 16px !important;
+}
+
+.contact-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #222;
+  margin-top: 0.75rem;
+  margin-bottom: 1rem;
+}
+.contact-info p i {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 16px;
+  color: #29337a;
+}
+
+/**
+ * Member page design
+ */
+.org-thumbnil,
+.org-thumbnil a,
+.org-thumbnil p {
+  color: #000 !important;
+  font-size: 16px;
+  font-weight: bold;
+}
+.org-thumbnil {
+  width: 230px;
+  height: 230px;
+  text-align: center;
+  box-shadow: 0px 1px 25px 1px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+}
+.org-thumbnil img {
+  width: 120px;
+  height: 120px;
+  display: block;
+  margin: 10px auto;
+}
+.org-thumbnil a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.org-thumbnil a:hover {
+  color: #27347a !important;
 }
